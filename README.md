@@ -20,16 +20,16 @@ App contains more features like:
 
 ### Login Page
 
-![](https://github.com/preranas14]/MovieStreaming/blob/master/screenshots/login.png)
+![](https://github.com/preranas14/MovieStreaming/blob/master/screenshots/login.png)
 
 ### Movie List
 
-![](https://github.com/preranas14]/MovieStreaming/blob/master/screenshots/list_movies.png)
+![](https://github.com/preranas14/MovieStreaming/blob/master/screenshots/list_movies.png)
 
 ### Movie description
 
-![](https://github.com/preranas14]/MovieStreaming/blob/master/screenshots/movie_description.png)
+![](https://github.com/preranas14/MovieStreaming/blob/master/screenshots/movie_description.png)
 
 ### Trailer window
 
-![](https://github.com/preranas14]/MovieStreaming/blob/master/screenshots/movie.png)
+![](https://github.com/preranas14/MovieStreaming/blob/master/screenshots/movie.png)
