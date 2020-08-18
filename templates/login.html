@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   
+<body>
+{% block content %}
+
+        <div class="row">
+            <div class="col-md-12">
+                Login via
+                <form class="form" role="form" method="post" action="/user/login/"
+                      accept-charset="UTF-8" id="login-nav">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail2">User Name</label>
+                        <input name='username' class="form-control" id="exampleInputEmail2"
+                               placeholder="User Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputPassword2">Password</label>
+                        <input name="password" type="password" class="form-control"
+                               id="exampleInputPassword2" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" name="path" value="{{ request.path }}">
+                        <input type="submit" class="btn btn-primary btn-block" value="Sign in"/>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> keep me logged-in
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom text-center">
+                New here ? <a href="/user/register/"><b>Join Us</b></a>
+            </div>
+        </div>
+   
+{% endblock content %}
+
+</body>
+</html>
