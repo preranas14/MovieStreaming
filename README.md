@@ -16,7 +16,7 @@ App contains more features like:
 
 ### Home Page
 
-![](https://github.com/preranas14]/MovieStreaming/blob/master/screenshots/homepage.png)
+![](https://github.com/preranas14/MovieStreaming/blob/master/screenshots/homepage.png)
 
 ### Login Page
 
